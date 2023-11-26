@@ -1,0 +1,116 @@
+<resources>
+    <!-- AndroidManifest.xml -->
+    <string name="app_name" translatable="false">Day Planner</string>
+
+    <!-- CreateNewActivity.java -->
+    <string name="title_activity_create_new">Create new activity</string>
+    <string name="title_length_error">Title is too long (max 30 characters)</string>
+    <string name="description_length_error">Description is too long (max 500 characters)</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="title_error">Title cannot be empty</string>
+    <string name="description_error">Description cannot be empty</string>
+    <string name="location_error">Location cannot be empty</string>
+    <string name="date_error">Date cannot be empty</string>
+    <string name="time_error">Time cannot be empty</string>
+    <string name="activity_created">Activity has been created</string>
+
+    <!-- MapViewActivity.java -->
+    <string name="map_view_title">Location: %s</string>
+
+    <!-- ShowDetailsActivity.java -->
+    <string name="title_show_details_activity">Activity details</string>
+    <string name="alert_delete_title">Delete activity</string>
+    <string name="alert_delete_message">Are you sure?</string>
+
+    <!-- UpcomingActivity.java -->
+    <string name="upcoming_activity">Upcoming activities</string>
+    <string name="intent_extra_activities" translatable="false">activities</string>
+
+    <!-- ShowDetailsActivity.java & ActivitiesFragment.java-->
+    <string name="intent_activity_details" translatable="false">Show activity details</string>
+
+    <!-- Adapter.java & ShowDetailsActivity.java & activity_create_new.xml -->
+    <string name="activity_type_travel">Travel</string>
+    <string name="activity_type_work">Work</string>
+    <string name="activity_type_free_time">Free time</string>
+
+    <!-- CalendarFragment.java -->
+    <string name="no_activities_today">%s - %s</string>
+    <string name="number_of_activities_label">number of activities: %d</string>
+
+    <!-- ModalBottomSheetFragment.java -->
+    <string name="image_uploaded">Uploaded!</string>
+    <string name="invalid_image_url">Invalid URL!</string>
+
+    <!-- MainActivity.java -->
+    <string name="notifications_text">Upcoming activities: %d</string>
+    <string name="snack_bar_btn">View</string>
+
+    <!-- activity_create_new.xml -->
+    <string name="activity_title">Title<font>*</font></string>
+    <string name="activity_description">Description<font>*</font></string>
+    <string name="activity_type">Activity type<font>*</font></string>
+    <string name="activity_location">Location<font>*</font></string>
+    <string name="activity_date">Date<font>*</font></string>
+    <string name="activity_time">Time<font>*</font></string>
+    <string name="type_error">Select activity type</string>
+    <string name="add_images_btn">Add images</string>
+
+    <!-- activity_item.xml & activity_show_details.xml -->
+    <string name="cd_chip_type" translatable="false">Chip Type</string>
+    <string name="cd_chip_date" translatable="false">Chip Date</string>
+    <string name="cd_chip_time" translatable="false">Chip Time</string>
+
+    <!-- activity_main.xml -->
+    <string name="extended_fab_label">Create new</string>
+
+    <!-- activity_main.xml & activity_show_details.xml -->
+    <string name="cd_fab" translatable="false">Extended FAB content description</string>
+
+    <!-- activity_map_view.xml -->
+    <string name="cd_map" translatable="false">Map content description</string>
+
+    <!-- activity_show_details.xml -->
+    <string name="fab_delete_label">Delete</string>
+    <string name="cd_chip_location" translatable="false">Chip Location</string>
+
+    <!-- fragment_activities.xml -->
+    <string name="sv_title">Activity Name</string>
+
+    <!-- fragment_activities.xml & fragment_calendar.xml -->
+    <string name="tv_no_activities">There are no activities</string>
+
+    <!-- modal_bottom_sheet_content.xml -->
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="url" translatable="false">URL</string>
+
+    <!-- url_input_dialog.xml -->
+    <string name="enter_url">Enter URL</string>
+    <string name="enter_url_here">Enter URL here..</string>
+
+    <!-- bottom_nav_menu.xml & mobile_navigation.xml -->
+    <string name="title_calendar">Calendar</string>
+    <string name="title_activities">Activities</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- create_new_activity_menu.xml -->
+    <string name="title_save">Save</string>
+
+    <!-- arrays.xml -->
+    <string name="notification_off">Off</string>
+    <string name="notification_hour">1 hour</string>
+    <string name="notification_day">1 day</string>
+    <string name="notification_week">7 day</string>
+
+    <!-- preferences.xml -->
+    <string name="language_preference">Select a language</string>
+    <string name="notification_preference_default" translatable="false">0</string>
+    <string name="notification_preference_key" translatable="false">notification</string>
+    <string name="notification_preference">Select notification period</string>
+
+    <!-- preferences.xml & SettingsFragment.java -->
+    <string name="language_preference_key" translatable="false">language</string>
+    <string name="language_preference_default" translatable="false">sr</string>
+</resources>

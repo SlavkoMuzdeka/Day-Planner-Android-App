@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CreateNewActivity.java -->
+    <string name="title_activity_create_new">Kreiraj novu aktivnost</string>
+    <string name="title_length_error">Naslov je predug (maksimalno 30 karaktera)</string>
+    <string name="description_length_error">Opis je predugačak (maksimalno 500 karaktera)</string>
+    <string name="select_date">Izaberite datum</string>
+    <string name="select_time">Izaberite vrijeme</string>
+    <string name="title_error">Naslov ne može biti prazan</string>
+    <string name="description_error">Opis ne može biti prazan</string>
+    <string name="location_error">Lokacija ne može biti prazna</string>
+    <string name="date_error">Datum ne može biti prazan</string>
+    <string name="time_error">Vrijeme ne može biti prazno</string>
+    <string name="activity_created">Aktivnost je uspješno kreirana</string>
+
+    <!-- MapViewActivity.java -->
+    <string name="map_view_title">Lokacija: %s</string>
+
+    <!-- ShowDetailsActivity.java -->
+    <string name="title_show_details_activity">Detalji aktivnosti</string>
+    <string name="alert_delete_title">Brisanje aktivnosti</string>
+    <string name="alert_delete_message">Jeste li sigurni?</string>
+
+    <!-- UpcomingActivity.java -->
+    <string name="upcoming_activity">Aktivnosti uskoro</string>
+
+    <!-- Adapter.java & ShowDetailsActivity.java & activity_create_new.xml -->
+    <string name="activity_type_travel">Putovanje</string>
+    <string name="activity_type_work">Posao</string>
+    <string name="activity_type_free_time">Zabava</string>
+
+    <!-- CalendarFragment.java -->
+    <string name="no_activities_today">%s - %s</string>
+    <string name="number_of_activities_label">ukupan broj aktivnosti: %d</string>
+
+    <!-- ModalBottomSheetFragment.java -->
+    <string name="image_uploaded">Slika je otpremljena!</string>
+    <string name="invalid_image_url">Nevalidan URL!</string>
+
+    <!-- MainActivity.java -->
+    <string name="notifications_text">Aktivnosti uskoro: %d</string>
+    <string name="snack_bar_btn">Pogledajte</string>
+
+    <!-- activity_create_new.xml -->
+    <string name="activity_title">Naziv<font>*</font></string>
+    <string name="activity_description">Opis<font>*</font></string>
+    <string name="activity_type">Tip aktivnosti<font>*</font></string>
+    <string name="activity_location">Lokacija<font>*</font></string>
+    <string name="activity_date">Datum<font>*</font></string>
+    <string name="activity_time">Vrijeme<font>*</font></string>
+    <string name="type_error">Izaberite tip aktivnosti</string>
+    <string name="add_images_btn">Dodaj slike</string>
+
+    <!-- activity_main.xml -->
+    <string name="extended_fab_label">Kreiraj</string>
+
+    <!-- activity_show_details.xml -->
+    <string name="fab_delete_label">Obriši</string>
+
+    <!-- fragment_activities.xml -->
+    <string name="sv_title">Naziv aktivnosti</string>
+
+    <!-- fragment_activities.xml & fragment_calendar.xml -->
+    <string name="tv_no_activities">Nema aktivnosti</string>
+
+    <!-- modal_bottom_sheet_content.xml -->
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galerija</string>
+
+    <!-- url_input_dialog.xml -->
+    <string name="enter_url">Unesi URL</string>
+    <string name="enter_url_here">Unesite URL ovde..</string>
+
+    <!-- bottom_nav_menu.xml & mobile_navigation.xml -->
+    <string name="title_calendar">Kalendar</string>
+    <string name="title_activities">Aktivnosti</string>
+    <string name="title_settings">Podešavanja</string>
+
+    <!-- create_new_activity_menu.xml -->
+    <string name="title_save">Sačuvaj</string>
+
+    <!-- arrays.xml -->
+    <string name="notification_off">Isključeno</string>
+    <string name="notification_hour">1 sat</string>
+    <string name="notification_day">1 dan</string>
+    <string name="notification_week">7 dana</string>
+
+    <!-- preferences.xml -->
+    <string name="language_preference">Izaberite jezik</string>
+    <string name="notification_preference">Izaberite period obavještenja</string>
+</resources>

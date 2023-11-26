@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.DayPlanner" parent="Theme.Material3.DayNight" />
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_start_18">18dp</dimen>
+    <dimen name="margin_top_30">30dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_end_10">10dp</dimen>
+    <dimen name="margin_bottom_5">5dp</dimen>
+    <dimen name="margin_bottom_10">10dp</dimen>
+
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+
+    <dimen name="drawable_padding">10dp</dimen>
+
+    <dimen name="max_width">488dp</dimen>
+    <dimen name="min_width">488dp</dimen>
+</resources>

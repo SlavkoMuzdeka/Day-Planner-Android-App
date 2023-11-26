@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        app:defaultValue="@string/language_preference_default"
+        app:icon="@drawable/ic_translate"
+        app:entries="@array/languages"
+        app:entryValues="@array/language_values"
+        app:key="@string/language_preference_key"
+        app:title="@string/language_preference"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        android:defaultValue="@string/notification_preference_default"
+        app:icon="@drawable/ic_notification"
+        android:entries="@array/notifications"
+        app:entryValues="@array/notification_values"
+        android:key="@string/notification_preference_key"
+        app:title="@string/notification_preference"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
